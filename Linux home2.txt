@@ -1,0 +1,11 @@
+   0 mkdir /Jana
+   1 ls
+   2 mkdir -p /home/user/start
+   3 touch /home/user/start/1.txt
+   4 echo "Start">/1.txt
+  5 date >>/home/user/start/1.txt
+  6 mkdir -p/opt/task
+  7 cp /home/user/start/1.txt/opt/task/start.txt
+  8 tail -n 4 />/opt/task/start.txt
+  9 history >> history
+  10 history > history.txt
