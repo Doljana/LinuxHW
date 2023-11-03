@@ -1,0 +1,19 @@
+
+localhost:~# touch Jana.txt
+localhost:~# ls
+Jana.txt    bench.py    hello.c     hello.js    readme.txt
+localhost:~# date >> Jana.txt
+localhost:~# df -h / >> Jana.txt
+localhost:~# history | tail -5 >> Jana.txt
+localhost:~# grep 'vendor' /proc/cpuinfo | cat -d: -f2 | sed | sort | uniq >> Ja
+  GNU nano 4.9.3                       Jana.txt                                 
+Fri Nov  3 11:51:39 UTC 2023
+Filesystem                Size      Used Available Use% Mounted on
+/dev/root                 4.9G      2.3G      2.6G  47% /
+   0 touch Jana.txt
+   1 ls
+   2 date >> Jana.txt
+   3 df -h / >> Jana.txt
+   4 history | tail -5 >> Jana.txt
+ export _ file Jana.txt
+ history >> Jana.txt
