@@ -1,0 +1,12 @@
+1.touch myfirstbashscript.sh
+2.#!/bin/bash
+3.USER="Jana"
+4.echo "Привет, Jana!"
+5.touch myfirstbashscript.sh
+6.current_directory=$
+7.chmod +x myfirstbashscript.sh
+8../myfirstbashscript.sh
+
+
+
+
