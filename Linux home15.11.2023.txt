@@ -1,0 +1,31 @@
+#!/bin/bash
+
+1.for ((i=1; i<=10; i++)); do
+2.echo date   $(ps aux | wc -l)"
+    sleep 5
+    done
+
+
+ sleep 0
+
+
+echo > processor_info.txt
+echo  >> processor_info.txt
+
+
+echo  > os_info.txt
+echo  | grep -o  >> os_info.txt
+
+
+echo  > os_info_clean.txt
+echo  | grep -o 
+
+for ((i=50; i<=100; i++)); do
+    touch "${i}.txt"
+    echo "${i}.txt" > "${i}.txt"
+done
+echo
+
+
+
+
