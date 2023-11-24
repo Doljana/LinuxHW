@@ -1,0 +1,19 @@
+#!/bin/bash
+cat /toot/readme.txt >> /tmp/logs/test.log
+ls / >> /tmp/logs/test2.log
+cp /root/bench.py /tmp/logs/
+tar -czvf /var/archive2.tar.gz -C /tmp logs
+echo 
+history > history.txt 
+ history.txt 
+
+
+
+
+
+
+
+
+
+
+
